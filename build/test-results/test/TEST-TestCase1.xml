@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCase1" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-20T13:42:08" hostname="99bc587bd5b1" time="0.009">
+  <properties/>
+  <testcase name="test" classname="TestCase1" time="0.009"/>
+  <system-out><![CDATA[server/172.18.0.2
+FROM SERVER: 14
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
