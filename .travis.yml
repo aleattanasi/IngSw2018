@@ -14,7 +14,6 @@ env:
     - COMMIT=${TRAVIS_COMMIT::8}
 
 
-
 install:
 - cd Server
 - docker build -t serverimage:v1 .
