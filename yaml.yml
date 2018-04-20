@@ -21,5 +21,4 @@ install:
 - docker images
 - docker network create t_network
 - docker run --network-alias server --network t_network -it serverimage:v1 &
-- cd $TRAVIS_BUILD_DIR
 - docker run --network t_network -it --rm -v "$PWD":/aleattanasi/IngSw2018 -w /aleattanasi/IngSw2018 gradle gradle -q build --info --debug
